@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-taco-wiggle: taco-wiggle 2.5s ease-in-out infinite;
+}
+
+@keyframes taco-wiggle {
+  0%, 100% {
+    transform: translateY(0) rotate(-8deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(8deg);
+  }
+}
